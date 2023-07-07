@@ -1,0 +1,46 @@
+body{
+    background-color: aquamarine;
+    text-align:center;
+    background-image: url("C:\Users\aarya\OneDrive\Desktop\Summer Assignment\Book Background.jpeg")
+    ;
+}
+button{
+    color:aliceblue;
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+}
+.header_main{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(11, 72, 71);
+    display: flex; /* It allows to insert different boxes do differentiate between sections of a webpage*/
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.header_main div{
+    height: 30px;
+}
+.header_main .div1{
+    width: 100px;
+    background-color:chartreuse;
+}
+.header_main .div2{
+    width: 100px;
+    background-color: blanchedalmond;
+}
+.header_main .div3{
+    width: 100px;
+    background-color:darkgreen;
+}
+li{
+    list-style-type: square;
+}
+.sp{
+    color: darkorange;
+    font-style: oblique;
+}
+li strong{
+    color: palevioletred;
+}
